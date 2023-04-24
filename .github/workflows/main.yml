@@ -3,7 +3,7 @@ name: Simple_Pileline
 on: 
   push: 
    branches: 
-     - main
+        - main
  jobs:
   my first Job
   runs-on: Ubuntu-latest
