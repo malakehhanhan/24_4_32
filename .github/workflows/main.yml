@@ -3,7 +3,9 @@ on:
   push : 
     branches :
       - main
-      
-  steps : 
-   -name: Print hello world
-    run :echo "Hello world"
+      job:
+       my first_Job
+       runs-on: ubuntu 
+         steps : 
+         -name: Print hello world
+          run :echo "Hello world"
