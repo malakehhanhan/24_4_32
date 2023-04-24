@@ -3,11 +3,12 @@ name: Simple_Pileline
 on: 
   push: 
    branches: 
-     - main
+     - master
  jobs:
-   my_job:
-   
-   steps: 
+  my first Job
+  runs-on: Ubuntu-latest
+    
+    steps: 
    - name: Print hello world
      run: echo "Hi"
  
