@@ -2,7 +2,7 @@ name: Simpl_Pipeline
 on:
   push : 
     branches :
-      - main
+        - main
       job:
        my first_Job
        runs-on: ubuntu 
