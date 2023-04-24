@@ -1,3 +1,4 @@
+name: Simpl_Pipeline
 on:
   push : 
     branches :
