@@ -5,4 +5,4 @@ on :
       
   steps : 
    -name: Print hello world
-    run : echo "Hello world"
+    run :echo "Hello world"
