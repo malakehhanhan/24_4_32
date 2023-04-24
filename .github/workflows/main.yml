@@ -1,7 +1,7 @@
 name: Simple_Pipeline
 on:
-  push : 
-    branches :
+  push: 
+    branches:
         - main
       job:
        my first_Job
