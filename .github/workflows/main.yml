@@ -1,0 +1,13 @@
+name: Simple_Pileline
+
+on: 
+  push: 
+   branches: 
+     - main
+ jobs:
+   my_job:
+   
+   steps: 
+   - name: Print hello world
+     run: echo "Hi"
+ 
